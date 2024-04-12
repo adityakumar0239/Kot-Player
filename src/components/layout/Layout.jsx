@@ -7,7 +7,7 @@ export const Layout = ({ children }) => {
     <div>
       <Header />
       <main className='mt-[4%]'>{children}</main>
-      <Footer />
+  
     </div>
   )
 }

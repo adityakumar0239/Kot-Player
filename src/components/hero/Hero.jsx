@@ -1,4 +1,4 @@
-import React from "react"
+import {React,useState} from "react"
 import { AiFillPlayCircle, AiOutlineHeart } from "react-icons/ai"
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md"
 import { BsPlayCircle, BsThreeDots } from "react-icons/bs"
@@ -35,13 +35,27 @@ export const Hero = () => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   }
+  const [isPlaying, setIsPlaying] = useState(false); 
+
+  const handlePlay = (i) => {
+    const audio  = document.getElementById(`audiox-${i}`);
+    if (audio.paused) {
+      audio.play();
+      setIsPlaying(true);
+    } else {
+      audio.pause();
+      setIsPlaying(false);
+    }
+  };
+  
   return (
     <section className='hero'>
       <div className='w-full h-auto md:h-[92vh] md:flex md:justify-between'>
         <div className='w-full h-full md:w-1/2'>
           <Slider {...settings}>
-            {hero1.map((item) => (
-              <div className='box relative h-[92vh] sm:mt-16 w-full'>
+            {hero1.map((item,i) => (
+              <div className='box relative h-[92vh] sm:mt-16 w-full' onClick={handlePlay(i)}>
+                <audio id={`audiox-${i}`} src={item.music}></audio>
                 <img src={item.cover} alt='cover' className='w-full h-full object-cover' />
                 <div className='text absolute top-0 left-0 text-white p-5'>
                   <h3 className='text-xl font-semibold'>{item.name}</h3>
