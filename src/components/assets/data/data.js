@@ -33,12 +33,14 @@ export const hero1 = [
     name: "Guru Randhawa",
     tag: "Fifty",
     cover: "../images/images.jpeg",
+    music: "../music/Nain Ta Heere - Guru Randhawa.mp3"
   },
   {
     id: 3,
     name: "Vishal Mishra",
     tag: "Special",
     cover: "../images/vishal-mishra-TVoKi.jpeg",
+    music: "../music/Janiye - Chor Nikal Ke Bhaga 320 Kbps.mp3",
   },
 ]
 export const hero2 = [
@@ -54,18 +56,21 @@ export const hero2 = [
     name: "Akhiyaan Gulaab",
     tag: "Mitraz",
     cover: "../images/image copy 3.png",
+    music: "../music/Akhiyaan Gulaab.mp3"
   },
   {
     id: 3,
     name: "Heeriye",
     tag: "Jasleen Royal",
     cover: "../images/Heeriye-feat-Arijit-Singh-Hindi-2023-20230928050405-500x500.jpg",
+    music: "../music/Heeriye (feat. Arijit Singh)(MP3_160K).mp3"
   },
   {
     id: 4,
     name: "Tume Prem Ho",
     tag: "Radha Krishna",
     cover: "../images/1379460-i-2b70cca05890.webp",
+    music: "../music/Tum Prem Ho Radhe_320(PagalWorld).mp3"
   },
 ]
 export const treading = [
@@ -74,36 +79,42 @@ export const treading = [
     name: "Naina",
     tag: "Diljit Dosanjh",
     cover: "../images/107659794_300x300.jpg",
+    music: "../music/Naina (Crew) Diljit Dosanjh-(PagalSongs.Com.IN).mp3"
   },
   {
     id: 2,
     name: "You Talking Me",
     tag: "Guru Randhawa",
     cover: "../images/You-Talking-To-Me-Punjabi-2023-20230728132141-500x500.jpg",
+    music: "../music/You-Talking-To-Me.mp3"
   },
   {
     id: 3,
     name: "Ami Je Tomar",
     tag: "Arjit Singh",
     cover: "../images/Ami-Je-Tomar-From-Bhool-Bhulaiyaa-2-Hindi-2022-20220524161001-500x500.jpg",
+    music: "../music/Ami Je Tomar - Kartik X Vidya.mp3"
   },
   {
     id: 4,
-    name: "Body on me",
-    tag: "Rita Ora",
+    name: "I Got You",
+    tag: "Bebe Rexha",
     cover: "../images/b6.jpg",
+    music: "../music/Bebe Rexha - I Got You [Official Music Video](MP3_320K).mp3"
   },
   {
     id: 5,
-    name: "Fireworks",
-    tag: "Kygo",
+    name: "Believer",
+    tag: "Imagini Dragons",
     cover: "../images/b1.jpg",
+    music: "../music/believer.mp3"
   },
   {
     id: 6,
-    name: "Simple Place To Be",
-    tag: "RYD",
+    name: "On & On",
+    tag: "Daniel Levi",
     cover: "../images/b7.jpg",
+    music: "../music/Cartoon_-_On___On_(feat._Daniel_Levi)_[NCS_Release_(1).mp3"
   },
 ]
 export const news = [
@@ -112,48 +123,56 @@ export const news = [
     name: "Janiye",
     tag: "Vishal Mishra",
     cover: "../images/Chor-Nikal-Ke-Bhaga-Soundtrack-from-the-Netflix-Film-Hindi-2023-20230314201135-500x500.jpg",
+    music: "../music/Janiye - Chor Nikal Ke Bhaga 320 Kbps.mp3"
   },
   {
     id: 2,
     name: "Heeriye",
     tag: "Jasleen Royal",
     cover: "../images/Heeriye-feat-Arijit-Singh-Hindi-2023-20230928050405-500x500.jpg",
+    music: "../music/Heeriye (feat. Arijit Singh)(MP3_160K).mp3"
   },
   {
     id: 3,
     name: "Mountain Peak",
     tag: "Guru Randhawa",
     cover: "../images/Mountain-Peak-Hindi-2023-20230310152408-500x500.jpg",
+    music: "../music/Mountain Peak - Guru Randhawa.mp3"
   },
   {
     id: 4,
     name: "Gallan",
     tag: "MC Square",
     cover: "../images/Gallan-From-Teri-Baaton-Mein-Aisa-Uljha-Jiya-Hindi-2024-20240213191031-500x500.jpg",
+    music: "../music/Gallan Teri Baaton Mein Aisa Uljha Jiya 320 Kbps.mp3"
   },
   {
     id: 5,
     name: "Akhiyaan Gulaab",
     tag: "Mitraz",
     cover: "../images/image copy 3.png",
+    music: "../music/Akhiyaan Gulaab.mp3"
   },
   {
     id: 6,
     name: "Lagdi Lohore Di",
     tag: "Guru Randhawa",
     cover: "../images/Lagdi-Lahore-Di-From-Street-Dancer-3D--Hindi-2020-20200115004001-500x500.jpg",
+    music: "../music/Lagdi Lahore Di - Street Dancer 3D.mp3"
   },
   {
     id: 7,
     name: "Duniyaa",
     tag: "Dhawani Bhanusali",
     cover: "../images/Duniyaa-From-Luka-Chuppi--Hindi-2019-20190222104011-500x500.jpg",
+    music: "../music/Duniyaa - Luka Chuppi.mp3"
   },
   {
     id: 8,
     name: "Thumkeshwari",
     tag: "Divya Kumar",
     cover: "../images/images (1).jpeg",
+    music: "../music/Thumkeshwari - Bhediya.mp3"
   },
 ]
 
